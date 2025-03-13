@@ -1,0 +1,21 @@
+{
+  "name": "adding_and_validating_users_in_db_via_bruno_app_assignment_2",
+  "version": "1.0.0",
+  "description": "In this assignment, you are tasked with creating a login endpoint for a social media application that provides personalized content to its users. The endpoint will accept a user's credentials (either a username or email along with a password) and authenticate them by comparing the provided password against the securely stored hashed password.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7"
+  }
+}
